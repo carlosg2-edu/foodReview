@@ -1,0 +1,93 @@
+{"restaurantes": [
+  {
+    "nombre": "Restaurante El Dorado",
+    "calificacion": 4.8,
+    "distancia": 2,
+    "nivel_costo": 3,
+    "tipo": "comida rápida",
+    "descripcion": "Un lugar moderno y rápido, ideal para una cena rápida. Menú variado con opciones saludables.",
+    "foto": ""
+  },
+  {
+    "nombre": "Café del Sol",
+    "calificacion": 4.7,
+    "distancia": 1,
+    "nivel_costo": 2,
+    "tipo": "café y desayuno",
+    "descripcion": "Un café acogedor con un ambiente agradable y opciones de café y desayuno. Muy popular entre los locales.",
+    "foto": ""
+  },
+  {
+    "nombre": "Bistrot Gourmand",
+    "calificacion": 4.9,
+    "distancia": 3,
+    "nivel_costo": 4,
+    "tipo": "francesa",
+    "descripcion": "Un bistró francés con cocina gourmet. Reservaciones recomendadas para una experiencia culinaria excepcional.",
+    "foto": ""
+  },
+  {
+    "nombre": "Restaurante Sabor del Mar",
+    "calificacion": 4.6,
+    "distancia": 5,
+    "nivel_costo": 3,
+    "tipo": "mariscos",
+    "descripcion": "Un restaurante especializado en mariscos frescos. Menú de temporada con platos deliciosos y sostenibles.",
+    "foto": ""
+  },
+  {
+    "nombre": "Bar de la Playa",
+    "calificacion": 4.5,
+    "distancia": 4,
+    "nivel_costo": 2,
+    "tipo": "bar",
+    "descripcion": "Un bar con vista al mar, perfecto para relajarse después de un día en la playa. Ofrece cócteles y música en vivo.",
+    "foto": ""
+  },
+  {
+    "nombre": "Casa del Abuelo",
+    "calificacion": 4.4,
+    "distancia": 6,
+    "nivel_costo": 2,
+    "tipo": "comida casera",
+    "descripcion": "Un lugar acogedor con comida tradicional. Menú de platos familiares, ideales para familias o grupos.",
+    "foto": ""
+  },
+  {
+    "nombre": "La Trattoria",
+    "calificacion": 4.3,
+    "distancia": 7,
+    "nivel_costo": 4,
+    "tipo": "italiana",
+    "descripcion": "Una trattoria italiana con cocina auténtica. Reservaciones necesarias para la mejor experiencia italiana.",
+    "foto": ""
+  },
+  {
+    "nombre": "Restaurante Luna Nueva",
+    "calificacion": 4.2,
+    "distancia": 8,
+    "nivel_costo": 3,
+    "tipo": "asiática",
+    "descripcion": "Un restaurante con cocina asiática, especialmente popular por su menú de fideos. Menú de temporada.",
+    "foto": ""
+  },
+  {
+    "nombre": "Bistro Elegante",
+    "calificacion": 4.1,
+    "distancia": 9,
+    "nivel_costo": 5,
+    "tipo": "alta cocina",
+    "descripcion": "Un bistro de alta cocina con chefs reconocidos. Reservaciones obligatorias para una experiencia gourmet.",
+    "foto": ""
+  },
+  {
+    "nombre": "Cocina Criolla",
+    "calificacion": 4.0,
+    "distancia": 10,
+    "nivel_costo": 2,
+    "tipo": "criolla",
+    "descripcion": "Un restaurante criollo con platos tradicionales. Menú de mariscos y carnes, ideal para un viaje a la región.",
+    "foto": ""
+  }
+]
+}
