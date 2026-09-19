@@ -17,6 +17,7 @@ export default function Restaurantes(){
                     descripcion={restaurante.descripcion}
                     foto={restaurante.foto}/>
                 ))
+            
             }
         </View>
     )
