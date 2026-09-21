@@ -5,7 +5,7 @@ export default function Restaurantes(){
     const restArr = restaurantes.restaurantes;
     console.log(restArr)
     return(
-        <View style={styles.scrollView}>
+        <View style={[styles.scrollView, {marginTop: 19, marginLeft: 20}]}>
             {
                 restArr.map((restaurante, index) => (
                     <Restaurante key={index} 

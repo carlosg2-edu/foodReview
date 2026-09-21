@@ -1,16 +1,23 @@
 import { useState } from 'react';
 import { StyleSheet, Text, Image, Button, View, Pressable } from 'react-native'
-
+import { Link } from 'expo-router';
 export function Restaurante({nombre, calificacion, distancia, nivel_costo, tipo, descripcion, foto, boton}){
     //const estado = activo;
     return (
-        <Pressable><View style={{marginLeft: 18}}>
-            <Image style={{width: 50, height: 50}}
-            source={{uri: foto,}}/>
-            <Text>{nombre}</Text>
-            <Text>{calificacion}</Text>
-            <Text>Distancia: {distancia} kilómetros</Text>
-        </View></Pressable>
+      <Link asChild href={{pathname: '/restaurante/[nombre]/detalles',
+                      params: {nombre: nombre}, }}>
+        <Pressable>
+        
+          <View style={{marginWidth: 5, marginColor: "black"}}>
+          <Image style={{width: 50, height: 50}}
+          source={{uri: foto,}}/>
+          <Text>{nombre}</Text>
+          <Text>{calificacion}</Text>
+          <Text>Distancia: {distancia} kilómetros</Text>
+          </View>
+        
+        </Pressable>
+      </Link>
         )
     }
 const styles = StyleSheet.create({
